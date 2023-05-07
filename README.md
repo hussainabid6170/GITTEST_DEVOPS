@@ -31,10 +31,15 @@ cat sshKEYFILE.pub
 copy and paste in github ssh key setting save it
 
 ssh -T git@github.com
+
 to resolve authentication error
+
 eval "$( ssh -agent -s)"
+
 ssh -add sshKEYFILE
+
 hit again "ssh -T git@github.com"  the git and github cconnection using ssh
+
 
 now you can push the changes using ssh 
 
