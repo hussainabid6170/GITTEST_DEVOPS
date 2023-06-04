@@ -36,7 +36,7 @@ to resolve authentication error
 
 eval "$( ssh -agent -s)"
 
-ssh -add sshKEYFILE
+ssh-add sshKEYFILE
 
 hit again "ssh -T git@github.com"  the git and github cconnection using ssh
 
