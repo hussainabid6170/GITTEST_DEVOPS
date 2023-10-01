@@ -47,3 +47,13 @@ git push -u origin development
 
 
 
+Issues faced and resolved ======
+
+ eval "$(ssh-agent -s)"
+ ssh-add ~/.ssh/id_rsa
+
+
+
+
+
+
